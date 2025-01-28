@@ -22,20 +22,11 @@
             </div>
         
             <div class="sound-voice">
-                <audio controls>
+                <audio controls loop>
                     <source src="images/6.mp3" type="audio/mp3">
-                    Your browser does not support the audio element.
                 </audio>
-                <button onclick="playAudio()">Play Audio</button>
             </div>
         </div>
     </div>
-
-    <script>
-        function playAudio() {
-            var audio = document.querySelector('.sound-voice audio');
-            audio.play();
-        }
-    </script>
 </body>
 </html>
